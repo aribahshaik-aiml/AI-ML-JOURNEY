@@ -45,3 +45,27 @@ for i in range (1, 11):
     if (i == 5):
         continue
     print(i)
+
+#Print numbers 1 -20 using for loop
+for i in range(1, 21):
+    print(i)
+
+#Print numbers 20 t0 1 (countdown)
+for i in range(20, 0, -1):
+    print(i)
+
+#Multiplication table of 7
+n = 7
+for i in range(1, 11):
+    print(n*i)
+
+#Multiples of 3 from 1 to 50
+n = 3
+for i in range(1, 51):
+    print(n*i)
+
+#Sum of numbers from 1 to 50
+total = 0
+for i in range(1, 51):
+    total = total + i
+print("sum:", total)
